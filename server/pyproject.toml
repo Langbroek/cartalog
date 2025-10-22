@@ -1,0 +1,20 @@
+[project]
+name = "cartalog_server"
+version = "0.1.0"
+description = "Server backend for Cartalog"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+  { name = "Kevin", email = "kevinlangbroek1@gmail.com" }
+]
+license = { text = "MIT" }
+keywords = ["cartalog", "api", "server", "flask"]
+
+dependencies = [
+  "flask",
+  "beartype",
+]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"

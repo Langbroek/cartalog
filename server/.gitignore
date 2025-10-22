@@ -17,6 +17,7 @@ eggs/
 lib/
 lib64/
 parts/
+!cartalog_server/dao/parts/
 sdist/
 var/
 wheels/
